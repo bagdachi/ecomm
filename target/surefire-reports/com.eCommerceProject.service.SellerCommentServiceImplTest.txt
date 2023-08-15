@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.eCommerceProject.service.SellerCommentServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! - in com.eCommerceProject.service.SellerCommentServiceImplTest
+getById  Time elapsed: 0.006 s  <<< ERROR!
+com.eCommerceProject.exception.NotFoundException: seller comment couldn't be found by following id: 1
+	at com.eCommerceProject.service.SellerCommentServiceImplTest.getById(SellerCommentServiceImplTest.java:40)
+

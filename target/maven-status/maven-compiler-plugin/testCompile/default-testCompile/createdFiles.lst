@@ -1,0 +1,8 @@
+com\eCommerceProject\ECommerceProjectApplicationTests.class
+com\eCommerceProject\service\CategoryServiceImplTest.class
+com\eCommerceProject\service\ProductServiceImplTest.class
+com\eCommerceProject\service\SellerCommentServiceImplTest.class
+com\eCommerceProject\api\ProductControllerTest.class
+com\eCommerceProject\service\ProductCommentServiceImplTest.class
+com\eCommerceProject\service\SellerServiceImplTest.class
+com\eCommerceProject\service\UserServiceImplTest.class

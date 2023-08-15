@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+Test set: com.eCommerceProject.api.ProductControllerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 4.845 s <<< FAILURE! - in com.eCommerceProject.api.ProductControllerTest
+getAll  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\Users\chira\IdeaProjects\ecomm\target\classes\com\eCommerceProject\api\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+getDto  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\Users\chira\IdeaProjects\ecomm\target\classes\com\eCommerceProject\api\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+getCart  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\Users\chira\IdeaProjects\ecomm\target\classes\com\eCommerceProject\api\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+add  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\Users\chira\IdeaProjects\ecomm\target\classes\com\eCommerceProject\api\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+addToCart  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\Users\chira\IdeaProjects\ecomm\target\classes\com\eCommerceProject\api\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+slice  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\Users\chira\IdeaProjects\ecomm\target\classes\com\eCommerceProject\api\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+getByproductName  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\Users\chira\IdeaProjects\ecomm\target\classes\com\eCommerceProject\api\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+removeFromCart  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\Users\chira\IdeaProjects\ecomm\target\classes\com\eCommerceProject\api\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+getByproductBrand  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\Users\chira\IdeaProjects\ecomm\target\classes\com\eCommerceProject\api\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+deleteByid  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\Users\chira\IdeaProjects\ecomm\target\classes\com\eCommerceProject\api\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.eCommerceProject.service.product.UpdateProductPriceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
